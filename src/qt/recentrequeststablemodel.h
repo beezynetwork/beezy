@@ -54,7 +54,7 @@ private:
 };
 
 /**
- * Model for list of recently generated payment requests / mbrocoin: URIs.
+ * Model for list of recently generated payment requests / beezy: URIs.
  * Part of wallet model.
  */
 class RecentRequestsTableModel: public QAbstractTableModel

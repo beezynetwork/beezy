@@ -16,7 +16,7 @@ while :
 do
 
 
-./mbrocoin-cli generatetoaddress 1 $(./mbrocoin-cli getnewaddress)
+./beezy-cli generatetoaddress 1 $(./beezy-cli getnewaddress)
 
 
 

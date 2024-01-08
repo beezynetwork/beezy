@@ -5,7 +5,7 @@
 // Copyright (c) 2014-2018 The BlackCoin Developers
 // Copyright (c) 2018-2022 The Blackcoin More Developers
 // Copyright (c) 2021-2022 The Safeminecoin developers
-// Copyright (c) 2022 The Mbrocoin developers
+// Copyright (c) 2022 The beezy developers
 
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -161,7 +161,7 @@ public:
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1,60); // R
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
-        cashaddrPrefix = "mbrocoin";
+        cashaddrPrefix = "beezy";
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
 

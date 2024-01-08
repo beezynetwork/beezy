@@ -24,17 +24,17 @@ In case you want to build the disk image with `make deploy` (.dmg / optional), y
 
 NOTE: Building with Qt4 is still supported, however, could result in a broken UI. Building with Qt5 is recommended.
 
-Build mbrocoin
+Build beezy
 ------------------------
 
-1. Clone the mbrocoin source code and cd into `mbrocoin`
+1. Clone the beezy source code and cd into `beezy`
 
-        git clone https://gitlab.com/mbrocoin/mbrocoin/
-        cd mbrocoin
+        git clone https://gitlab.com/beezy/beezy/
+        cd beezy
 
-2.  Build mbrocoin:
+2.  Build beezy:
 
-    Configure and build the headless mbrocoin binaries as well as the GUI (if Qt is found).
+    Configure and build the headless beezy binaries as well as the GUI (if Qt is found).
 
     You can disable the GUI build by passing `--without-gui` to configure.
 
@@ -53,37 +53,37 @@ Build mbrocoin
 Running
 -------
 
-mbrocoin is now available at `./src/mbrocoind`
+beezy is now available at `./src/beezyd`
 
 Before running, it's recommended you create an RPC configuration file.
 
-    echo -e "rpcuser=mbrocoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/mbrocoin/mbrocoin.conf"
+    echo -e "rpcuser=beezyrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/beezy/beezy.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/mbrocoin/mbrocoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/beezy/beezy.conf"
 
-The first time you run mbrocoind, it will start downloading the blockchain. This process could take several hours.
+The first time you run beezyd, it will start downloading the blockchain. This process could take several hours.
 
 You can monitor the download process by looking at the debug.log file:
 
-    tail -f $HOME/Library/Application\ Support/mbrocoin/debug.log
+    tail -f $HOME/Library/Application\ Support/beezy/debug.log
 
 Other commands:
 -------
 
-    ./src/mbrocoind -daemon # Starts the mbrocoin daemon.
-    ./src/mbrocoin-cli --help # Outputs a list of command-line options.
-    ./src/mbrocoin-cli help # Outputs a list of RPC commands when the daemon is running.
+    ./src/beezyd -daemon # Starts the beezy daemon.
+    ./src/beezy-cli --help # Outputs a list of command-line options.
+    ./src/beezy-cli help # Outputs a list of RPC commands when the daemon is running.
 
 Using Qt Creator as IDE
 ------------------------
-You can use Qt Creator as an IDE, for mbrocoin development.
+You can use Qt Creator as an IDE, for beezy development.
 Download and install the community edition of [Qt Creator](https://www.qt.io/download/).
 Uncheck everything except Qt Creator during the installation process.
 
 1. Make sure you installed everything through Homebrew mentioned above
 2. Do a proper ./configure --enable-debug
 3. In Qt Creator do "New Project" -> Import Project -> Import Existing Project
-4. Enter "mbrocoin-qt" as project name, enter src/qt as location
+4. Enter "beezy-qt" as project name, enter src/qt as location
 5. Leave the file selection as it is
 6. Confirm the "summary page"
 7. In the "Projects" tab select "Manage Kits..."

@@ -7,17 +7,17 @@ define(_CLIENT_VERSION_BUILD, 0)
 define(_CLIENT_VERSION_IS_RELEASE, true)
 define(_COPYRIGHT_YEAR, 2022)
 define(_COPYRIGHT_HOLDERS,[The %s developers])
-define(_COPYRIGHT_HOLDERS_SUBSTITUTION,[[mbrocoin]])
-AC_INIT([mbrocoin],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/mbrocoin/mbrocoin], [mbrocoin.org])
+define(_COPYRIGHT_HOLDERS_SUBSTITUTION,[[beezy]])
+AC_INIT([beezy],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/beezy/beezy], [beezy.org])
 AC_CONFIG_SRCDIR([src/main.cpp])
 AC_CONFIG_HEADERS([src/config/bitcoin-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_MACRO_DIR([build-aux/m4])
 
-BITCOIN_DAEMON_NAME=mbrocoind
-BITCOIN_GUI_NAME=mbrocoin-qt
-BITCOIN_CLI_NAME=mbrocoin-cli
-BITCOIN_TX_NAME=mbrocoin-tx
+BITCOIN_DAEMON_NAME=beezyd
+BITCOIN_GUI_NAME=beezy-qt
+BITCOIN_CLI_NAME=beezy-cli
+BITCOIN_TX_NAME=beezy-tx
 
 AC_CANONICAL_HOST
 

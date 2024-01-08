@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "mbrocoin"
-            VALUE "FileDescription",    "mbrocoin-tx (CLI mbrocoin transaction editor utility)"
+            VALUE "CompanyName",        "beezy"
+            VALUE "FileDescription",    "beezy-tx (CLI beezy transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "mbrocoin-tx"
+            VALUE "InternalName",       "beezy-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "mbrocoin-tx.exe"
-            VALUE "ProductName",        "mbrocoin-tx"
+            VALUE "OriginalFilename",   "beezy-tx.exe"
+            VALUE "ProductName",        "beezy-tx"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

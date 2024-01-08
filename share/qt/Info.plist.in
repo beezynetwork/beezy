@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>mbrocoin-Qt</string>
+  <string>beezy-Qt</string>
   
   <key>CFBundleName</key>
-  <string>mbrocoin-Qt</string>
+  <string>beezy-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>org.mbrocoin.mbrocoin-Qt</string>
+  <string>org.beezy.beezy-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>

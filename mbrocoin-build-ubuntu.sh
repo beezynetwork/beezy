@@ -11,7 +11,7 @@ echo '/swapfile none swap sw 0 0' >> /etc/fstab
 free -m 
 df -h
 
-rm -rf ~/root/.mbrocoin
+rm -rf ~/root/.beezy
 
 cd ~ && sudo apt-get update && sudo apt-get upgrade -y &&
 sudo apt-get install git curl cmake automake python3 bsdmainutils libtool autotools-dev libboost-all-dev libssl-dev libevent-dev libdb++-dev libminiupnpc-dev libnatpmp-dev systemtap-sdt-dev libprotobuf-dev protobuf-compiler libzmq3-dev libsqlite3-dev pkg-config net-tools build-essential -y &&
@@ -26,11 +26,11 @@ sudo apt-get install software-properties-common -y &&
 sudo apt-get update -y &&
 
 cd ~ 
-cd mbrocoin
+cd beezy
 
 ./contrib/install_db4.sh `pwd`
 
-export BDB_PREFIX='/root/mbrocoin/db4'
+export BDB_PREFIX='/root/beezy/db4'
   
 ./autogen.sh
 
@@ -44,9 +44,9 @@ sudo ufw allow 14141/tcp
 sudo ufw allow 14142/tcp
 sudo ufw allow 22/tcp
 
-sudo mkdir ~/.mbrocoin
+sudo mkdir ~/.beezy
 
-cat << "CONFIG" >> ~/.mbrocoin/mbrocoin.conf
+cat << "CONFIG" >> ~/.beezy/beezy.conf
 daemon=1
 listen=1
 server=1
@@ -61,10 +61,10 @@ addnode=51.77.48.45
 addnode=135.125.225.55
 CONFIG
 
-chmod 700 ~/.mbrocoin/mbrocoin.conf
-chmod 700 ~/.mbrocoin
-ls -la ~/.mbrocoin 
+chmod 700 ~/.beezy/beezy.conf
+chmod 700 ~/.beezy
+ls -la ~/.beezy 
 cd ~
 cd /usr/local/bin 
 
-mbrocoind -daemon -txindex
+beezyd -daemon -txindex

@@ -1,7 +1,7 @@
 ### The MIT License (MIT)
 
 * Copyright (c) 2022 The Beezy-Network Developers
-* Copyright (c) 2022 The Mbrocoin Developers
+* Copyright (c) 2022 The beezy Developers
 * Copyright (c) 2021-2022 The SafeMineCoin Developers
 * Copyright (c) 2018-2022 The Blackcoin More Developers
 * Copyright (c) 2014-2018 The BlackCoin Developers
@@ -23,11 +23,11 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-#### MBROCOIN - Fast. Simple. Secure. The Global Crypto Payment
+#### beezy - Fast. Simple. Secure. The Global Crypto Payment
 
 ### Coin Specification
 * Algorithm: Scrypt Proof of Work (POW) and Proof of Stake (POS)
-* Coin Name    Mbrocoin
+* Coin Name    beezy
 * Coin Ticker  MBRO
 * Public Address  M
 * Testnet Address T
@@ -44,6 +44,6 @@ Here are some ideas to get you started:
 * Target spacing    2 minutes
 * Target timespan   10 minutes
 
-#### [Doc Build Instructions](https://github.com/mbrocoin/mbrocoin/tree/master/doc)
-#### [CLI Compile Linux Ubuntu](https://github.com/mbrocoin/mbrocoin/wiki/CLI-Compile-Linux-Ubuntu-18.04-or-20.04-LTS)
+#### [Doc Build Instructions](https://github.com/beezy/beezy/tree/master/doc)
+#### [CLI Compile Linux Ubuntu](https://github.com/beezy/beezy/wiki/CLI-Compile-Linux-Ubuntu-18.04-or-20.04-LTS)
 
