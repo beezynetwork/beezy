@@ -15,7 +15,7 @@ rm -rf ~/root/.beezy
 
 cd ~ && sudo apt-get update && sudo apt-get upgrade -y &&
 sudo apt-get install git curl cmake automake python3 bsdmainutils libtool autotools-dev libboost-all-dev libssl-dev libevent-dev libdb++-dev libminiupnpc-dev libnatpmp-dev systemtap-sdt-dev libprotobuf-dev protobuf-compiler libzmq3-dev libsqlite3-dev pkg-config net-tools build-essential -y &&
-sudo apt gen install sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools -y && 
+sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools -y && 
 sudo apt install qtwayland5 -y && 
 sudo apt-get install libqrencode-dev -y && 
 
