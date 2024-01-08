@@ -1,5 +1,6 @@
 ### The MIT License (MIT)
 
+* Copyright (c) 2022 The Beezy-Network Developers
 * Copyright (c) 2022 The Mbrocoin Developers
 * Copyright (c) 2021-2022 The SafeMineCoin Developers
 * Copyright (c) 2018-2022 The Blackcoin More Developers
