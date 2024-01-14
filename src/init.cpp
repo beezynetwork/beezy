@@ -60,7 +60,7 @@
 #include <boost/thread.hpp>
 #include <openssl/crypto.h>
 
-using namespace boost::placeholders
+using namespace boost::placeholders;
 
 #if ENABLE_ZMQ
 #include "zmq/zmqnotificationinterface.h"

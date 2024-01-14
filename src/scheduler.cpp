@@ -10,7 +10,7 @@
 #include <boost/bind/bind.hpp>
 #include <utility>
 
-using namespace boost::placeholders
+using namespace boost::placeholders;
 
 CScheduler::CScheduler() : nThreadsServicingQueue(0), stopRequested(false), stopWhenEmpty(false)
 {

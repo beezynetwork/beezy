@@ -24,7 +24,7 @@
 #include <boost/thread.hpp>
 #include <boost/algorithm/string/case_conv.hpp> // for to_upper()
 
-using namespace boost::placeholders
+using namespace boost::placeholders;
 using namespace RPCServer;
 using namespace std;
 

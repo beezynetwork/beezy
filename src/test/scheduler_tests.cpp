@@ -13,7 +13,7 @@
 #include <boost/thread.hpp>
 #include <boost/test/unit_test.hpp>
 
-using namespace boost::placeholders
+using namespace boost::placeholders;
 
 BOOST_AUTO_TEST_SUITE(scheduler_tests)
 
