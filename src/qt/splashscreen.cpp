@@ -15,6 +15,8 @@
 #include "util.h"
 #include "ui_interface.h"
 #include "version.h"
+#include <boost/bind/bind.hpp>
+using namespace boost::placeholders;
 
 #ifdef ENABLE_WALLET
 #include "wallet/wallet.h"
