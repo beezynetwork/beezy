@@ -1,7 +1,7 @@
 ### The MIT License (MIT)
 
-* Copyright (c) 2022 The Beezy-Network Developers
-* Copyright (c) 2022 The beezy Developers
+* Copyright (c) 2023-2024 The Beezy-Network Developers
+* Copyright (c) 2022 The mbrocoin Developers
 * Copyright (c) 2021-2022 The SafeMineCoin Developers
 * Copyright (c) 2018-2022 The Blackcoin More Developers
 * Copyright (c) 2014-2018 The BlackCoin Developers
@@ -28,17 +28,17 @@ Here are some ideas to get you started:
 ### Coin Specification
 * Algorithm: Scrypt Proof of Work (POW) and Proof of Stake (POS)
 * Coin Name    beezy
-* Coin Ticker  MBRO
-* Public Address  M
+* Coin Ticker  BEEZY
+* Public Address  B
 * Testnet Address T
 * RPC port	14141
 * P2P port	14142
 * Coinbase maturity (default 21 confirmation) blocks
 * Transaction (default 6 confirmation) blocks
 * * Block Rewards
-	* PoW   50 MBRO per block (for last POW 100.000 blocks) starting block 30.0001 PoW reward lowered to 15 MBRO
-	* PoS   5 MBRO per block
-	  *  Min. stake age   12 hours
+	* PoW   50 BEEZY per block, starting block 30.0001 PoW reward lowered to 15 BEEZY, after Block 100.000 to 5 BEEZY
+	* PoS   5 BEEZY per block
+	  *  Min. stake age   7 Days
 	  *  Max. stake age   Unlimited
 	* Premine and Developments 1.000.000 coins
 * Target spacing    2 minutes
